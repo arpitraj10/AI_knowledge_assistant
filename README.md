@@ -4,6 +4,7 @@ An intelligent AI-powered assistant that retrieves, understands, and answers use
 This project combines the power of Large Language Models (LLMs) with custom knowledge sources to provide accurate, context-aware, and human-like responses.
 
 📌 Features
+
 🔍 Smart Knowledge Retrieval – Fetches relevant information from custom datasets
 
 🤖 LLM-based Responses – Uses advanced AI models for natural answers
