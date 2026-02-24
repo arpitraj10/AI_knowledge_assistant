@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Model files (if any)
+*.pkl
+
+# IDE
+.vscode/
+.idea/
