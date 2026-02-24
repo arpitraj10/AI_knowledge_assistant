@@ -1,0 +1,30 @@
+AI Knowledge Assistant Project Documentation
+
+This project is an AI-powered Knowledge Assistant built using Retrieval Augmented Generation (RAG).
+It allows users to ask natural language questions and receive accurate answers based on stored documents.
+
+The system uses Endee as the vector database to store document embeddings and perform semantic search.
+When a user submits a question, the system retrieves the most relevant document chunks from Endee
+and passes them as context to a Large Language Model for answer generation.
+
+Key Components of the System:
+1. Document Loader – Loads and preprocesses text documents.
+2. Embedding Generator – Converts text into vector embeddings.
+3. Endee Vector Database – Stores and indexes embeddings.
+4. Retriever – Finds relevant document chunks based on semantic similarity.
+5. LLM Generator – Produces contextual answers using retrieved data.
+
+Retrieval Augmented Generation (RAG) improves accuracy by grounding responses
+in verified internal documents rather than relying only on model knowledge.
+
+Use Case Examples:
+- Question answering over internal documentation
+- AI-powered student help desk
+- Technical knowledge base search
+- Internship or onboarding assistant
+
+Endee is used to efficiently store high-dimensional embeddings and perform fast similarity search,
+making it suitable for scalable AI knowledge systems.
+
+This project demonstrates a real-world AI workflow involving document ingestion,
+semantic retrieval, and natural language response generation.
